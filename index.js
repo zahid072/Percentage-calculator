@@ -12,10 +12,9 @@ btn.addEventListener("click", () => {
 
   let totalValue = (percentage * ofNumber) / 100;
   result.innerText = totalValue;
-  
-  document.getElementById("percentage").value='';
-  document.getElementById("ofNumber").value='';
-  
+
+  document.getElementById("percentage").value = "";
+  document.getElementById("ofNumber").value = "";
 });
 clearBtn.addEventListener("click", () => {
   result.innerText = "";
